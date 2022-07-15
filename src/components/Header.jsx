@@ -2,8 +2,9 @@ const Header = () => {
   return (
     <>
       <h1 className="font-black text-5xl text-center md:w-2/3 mx-auto">
-        Seguimiento Pacientes {""} Con GitHub {""}
-        <span className="text-indigo-600">Veterinaria Las Condes</span>
+        Seguimiento Pacientes 
+        <hr className="m-3"/>
+        <span className="text-blue-600">Veterinaria Eulufi</span>
       </h1>
     </>
   );

@@ -8,7 +8,7 @@ const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
           <h2 className="font-black text-center text-3xl">Listado Pacientes</h2>
           <p className="text-xl mt-5 mb-10 text-center">
             Administra tus {""}
-            <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
+            <span className="text-blue-600 font-bold">Pacientes y Citas</span>
           </p>
           {pacientes.map((paciente) => (
             <Paciente
@@ -21,10 +21,10 @@ const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
         </>
       ) : (
         <>
-          <h2 className="font-black text-center text-3xl">No hay Pacientes</h2>
+          <h2 className="font-black text-center text-3xl text-red-600i">No hay Pacientes</h2>
           <p className="text-xl mt-5 mb-10 text-center">
             Comienza agregando pacientes {""}
-            <span className="text-indigo-600 font-bold">
+            <span className="text-blue-600 font-bold">
               y apareceran en este lugar
             </span>
           </p>
